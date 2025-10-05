@@ -38,12 +38,14 @@ def decrypt_image(input_path, output_path, key):
 
  # image path
 input_image = r"C:\Users\Dell\Desktop\CS\input.jpg"
-encrypted_image = r"C:\Users\Dell\Desktop\CS\decrypted_image.jpg"
-decrypted_image = r"C:\Users\Dell\Desktop\CS\encrypted_image.jpg"
+encrypted_image = r"C:\Users\Dell\Desktop\CS\encrypted_image.jpg"
+decrypted_image = r"C:\Users\Dell\Desktop\CS\decrypted_image.jpg" 
+
 
 
 # Encrypt the image
 encrypt_image(input_image, encrypted_image, key=None)
 
 # Decrypt the image
+
 decrypt_image(encrypted_image, decrypted_image, key=None)
